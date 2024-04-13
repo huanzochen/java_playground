@@ -26,7 +26,7 @@ public class FindKthToLastElement {
         System.out.println("index:" + index);
         System.out.println("head.data:" + head.data);
         if (index == k) {
-            System.out.println(k + "th to last node is " + head.data);
+            System.out.println("Found the target index, the " + k + "th to last node is " + head.data + " node.");
         }
         return index;
     }
@@ -35,10 +35,10 @@ public class FindKthToLastElement {
         FindKthToLastElement instance = new FindKthToLastElement();
         instance.initiateLinkedList();
 
-        int resultIndex = instance.printKthToLastElement(instance.head, 2); // 2th to last node is 3
+        int resultIndex = instance.printKthToLastElement(instance.head, 2); // 2th to last node is d
 
         // this will print the last index, should be 5
-        System.out.println("resultIndex should be 2, resultIndex:" + resultIndex);
+        System.out.println("the last index, lastindex:" + resultIndex);
 
     }
 }
