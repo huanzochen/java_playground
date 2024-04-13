@@ -1,4 +1,4 @@
-public class Main {
+public class MethodOverLoading {
     public static void main(String[] args) {
         int scoreResult = calculateScore("Tommy", 60);
         System.out.println("After the calculation, your final score is:" + scoreResult);
